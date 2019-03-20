@@ -1,0 +1,27 @@
+{
+    "name": "netforce/events",
+    "description": "Controle de eventos.",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Bruno Goncalves",
+            "email": "bugotech@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.4.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "NetForce\\Events\\": ""
+        }
+    },
+
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
